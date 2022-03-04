@@ -1,0 +1,58 @@
+html,
+body {
+  cursor: default;
+  margin: 0;
+  padding: 0;
+  background-color: #5baff5;
+  overflow: hidden;
+}
+
+.wrapper {
+  height: 100vh;
+  background-color: #5baff5;
+}
+.sun-light {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 7em auto;
+  padding: 3em;
+  box-shadow: 0 0 60px 20px #fbe602, 0 0 80px 30px #e70f14, 0 0 140px 90px #fabc14;
+}
+.plane-wrapper{
+  text-align: center;
+}
+
+.plane-wrapper svg{
+  display: block;
+  width: 100%;
+}
+
+.cloud-one-wrapper img,
+.cloud-four-wrapper img{
+  width: 250px;
+  position: absolute;
+  top:200px;
+  z-index: 99;
+}
+.cloud-two-wrapper img,
+.cloud-five-wrapper img{
+  width: 300px;
+  position: absolute;
+  top:300px;
+
+  z-index: 99;
+}
+.cloud-three-wrapper img{
+  width: 200px;
+  position: absolute;
+  top:480px;
+  z-index: 99;
+}
+.cloud-six-wrapper img{
+  width: 200px;
+  position: absolute;
+  top:480px;
+  z-index: 99;
+}
